@@ -1,0 +1,61 @@
+/* CSS Document */
+body{
+	TEXT-ALIGN: register;
+}
+
+#register{
+	margin-top: 60px;
+	MARGIN-RIGHT: auto;
+	MARGIN-LEFT: auto;
+	height:200px;
+	background: #F4FAFF;
+	width:400px;
+	padding: 30px;
+	border:1px  #AECEEF dashed;
+	color:#666666;
+	font-family:"lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+}
+
+#register h3{
+	text-align: center;	
+	
+}
+
+#register label{
+	display: inline-block;
+	text-align: right;
+	width: 120px;
+	font-size: 12px;
+	margin-right: 10px;
+}
+
+#register .inputbtn{
+	background-color: #348DD3;
+    border-color: #A3C8E9 #4379C0 #4379C0 #A3C8E9;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 2px 7px;
+}
+
+#register div{
+	margin: 6px;
+}
+
+#register h4{
+	text-align: center;
+}
+
+#register .fail{
+	color: #F00;
+}
+
+.textinput{
+	border: 1px solid #AAAAAA;
+    color: #555555;
+    margin: 0;
+    padding: 4px;
+    vertical-align: middle;
+	width:200px
+}

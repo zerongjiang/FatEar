@@ -1,0 +1,766 @@
+/* CSS Document */
+body{
+ 	font-family:"lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+}
+
+.clear{
+	clear: both;
+}
+
+ul, ol {
+    list-style: none outside none;
+	margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color:#666;
+	
+}
+
+.tip{
+	height: 24px;
+	margin: 8px;
+	padding: 8px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #e9ffe8;
+	color: #666666;
+	font-size: 16px;
+	border-bottom: 1px solid #66c266;
+	border-top:1px solid #66c266;
+}
+
+.tip a{
+}
+
+.err_tip{
+	border-bottom: 1px solid #DD3C10;
+	border-top: 1px solid #DD3C10;
+	color: #D90000;
+	background: #FFEBE8;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: inherit;
+}
+table td{
+	vertical-align: middle;
+}
+table td.rc1{
+	color: #999;
+	line-height: 1.8;
+	padding-top: 2px;
+	width: 80px;
+	
+}
+
+a {
+    color: #3366CC;
+    cursor: pointer;
+    text-decoration: none;
+}	
+
+.hidden{
+	display: none;
+}
+
+
+
+.inputbtn{
+	background-color: #348DD3;
+    border-color: #A3C8E9 #4379C0 #4379C0 #A3C8E9;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+}
+
+
+#header{
+	margin: 0 auto;
+	height:50px;
+	width:1080px;
+	border-bottom:   #ddd 1px dashed;
+}
+
+#searchbox{
+	border: 1px solid #AAAAAA;
+    color: #555555;
+    margin: 0;
+    padding: 4px;
+    vertical-align: middle;
+    width: 260px;
+	height: 12px;
+}
+
+#auto_complete{
+	position: absolute;
+    z-index: 999999;
+	width: 240px;
+    top: 32px;
+    width: 328px;
+	left: 360px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+	font-size:12px;
+}
+
+#auto_complete p{
+	color: #888888;
+	border-bottom: 1px solid #EDEDED;
+    padding: 5px 0;
+    margin:0;
+	text-align: right;
+}
+
+#auto_complete th{
+    border-right: 1px solid #EDEDED;
+    padding: 5px 0;
+    text-align: right;
+    vertical-align: top;
+    width: 60px;
+}
+
+#auto_complete .search_select{
+	background: #5297ff;
+	color: #FFF;
+
+}
+
+#auto_complete .search_select a,#auto_complete .search_select span{
+	background: #5297ff;
+	color: #FFF;
+	text-decoration: none;
+}
+
+#auto_complete a{
+	width: 270px;
+	height: 30px;
+	padding: 2px;;
+}
+
+#auto_complete th span {
+    color: #888888;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 2px 4px 0;
+	display: inline-block;
+	float: right;
+}
+
+#auto_complete li {
+	padding: 2px 0;
+}
+
+#auto_complete li a{
+	display: block;
+}
+
+#main{
+	margin: 0 auto;
+	width: 1080px;
+	padding: 5px;
+}
+
+#content{
+	width: 800px;
+	float:left;
+	padding: 8px;
+	border: 1px dashed #DDDDDD;
+	min-height: 600px;
+}
+
+#navi{
+	font-family:"Comic Sans MS", cursive;
+	margin: 10px 0 30px 0;
+	
+}
+
+#sidebar{
+	width: 240px;
+	float:right;
+	border:1px dashed #DDDDDD;
+	padding: 8px;
+	min-height: 600px;
+
+}
+#login{
+	border:1px  #AECEEF dashed;
+	background: #F4FAFF;
+	margin-bottom: 12px;
+}
+
+#login div{
+	margin: 5px;
+}
+
+#login label{
+	display: inline-block;
+	text-align: right;
+	width: 60px;
+	font-size: 12px;
+	margin-right: 10px;
+}
+
+
+
+#login .inputbtn{
+	background-color: #348DD3;
+    border-color: #A3C8E9 #4379C0 #4379C0 #A3C8E9;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+    margin: 3px 10px 3px 10px;
+    padding: 2px 7px;
+}
+
+
+
+
+#myself{
+	width:255px;
+	float:right;
+	border:1px solid #000000;
+	text-align:center;
+}
+
+.userlarge{
+	height:200px;
+	width:200px;
+	background: #F9F9F9;
+	border: #ddd 1px dashed;
+}
+
+.userlarge a{
+	height:200px;
+	width:200px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+.avatarlarge{
+	max-height:180px;
+	max-width:180px;
+	border: none;
+}
+
+#userinfo{
+	margin: 0 auto;
+	text-align:center;
+	width: 200px;
+	height: 240px;
+	border-bottom: 1px solid #C7C7C7;
+}
+#usershow{
+	margin: 8px;
+	padding: 8px;
+	border-top: 2px solid #C7C7C7;
+}
+
+#usershow .usermid{
+	margin-left: 3px;
+	margin-right: 4px;
+	vertical-align: top;
+}
+
+#newusers{
+	padding-top: 5px;	
+}
+
+.usermid{
+	height:100px;
+	width:100px;
+	display: inline-block;
+	background: #F9F9F9;
+	border: #ddd 1px dashed;
+}
+
+.usermid a{
+	height:100px;
+	width:100px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.avatarmid{
+	max-height:100px;
+	max-width:100px;
+	border: 0 none;
+	text-align: center;
+
+}
+
+
+
+
+
+
+.usermini{
+	height:36px;
+	width:36px;
+	margin-right:5px;
+	display: inline-block;
+	background: #F9F9F9;
+	border: #ddd 1px dashed;
+}
+
+.usermini a{
+	height:36px;
+	width:36px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.avatarmini{
+	max-height:36px;
+	max-width:36px;
+	border: 0 none;
+	text-align: center;
+}
+	
+.songplay{
+	float:right;
+}
+
+.cdcover{
+	background: url(../res/cd.png) no-repeat scroll 0 0 transparent;
+	width:185px;
+	height:185px;
+	display:block;
+	padding:13px 14px 34px 32px;
+}
+
+.cdimg{
+	text-align:left;
+	width:185px;
+	height:185px;
+	border: 0px;
+}
+
+#song_box{
+	height: 240px;
+	border-bottom:  1px solid #C7C7C7;
+	margin-bottom: 10px;
+}
+
+#song_info{
+	float:left;
+	width:400px;
+	padding: 8px;
+	height: 220px;
+	border-right: 1px solid #C7C7C7;
+}
+
+.albumcover{
+	float:right;
+	width: 296px;
+}
+
+#songtool{
+	margin: 8px;
+	border-bottom:  1px solid #C7C7C7;
+	height: 210px;	
+}
+
+#grader{
+	width:100px;
+	float:left;
+}
+
+#mycomment{
+	float:left;
+	height: 200px;
+}
+
+
+.grade a{
+	background: url(../res/star.gif) no-repeat transparent;
+	height:17px;
+	width: 17px;
+	display: inline-block;
+}
+
+.grade a.selected{
+	background-position: -34px 0;
+}
+
+.grade a.hover{
+	background-position: -17px 0;
+}
+
+.grade a.unselect{
+	background-position: 0px 0;
+}
+
+.rankico{
+	background:url(../res/starmini.gif) no-repeat transparent;
+	height:11px;
+	width:59px;
+	display:inline-block;
+	margin-right: 5px;
+}
+
+.appraise5{
+	background-position: 0 -2px;
+}
+
+.appraise4{
+	background-position: 0 -20px;
+}
+
+.appraise3{
+	background-position: 0 -38px;
+}
+
+.appraise2{
+	background-position: 0 -56px;
+}
+
+.appraise1{
+	background-position: 0 -74px;
+}
+
+.appraise0{
+	background-position: 0 -92px;
+}
+
+#mycomment p{
+	background-color:#F3F3F3;
+	font-style: italic;
+	width: 680px;
+	margin: 0;
+	padding: 0;
+	height:110px;
+	border: #CCC 1px solid;
+}
+
+#mycomment textarea{
+	width: 698px;
+	margin: 0;
+	padding: 0;
+	height:110px;
+	word-wrap:break-word;
+}
+
+
+.activitylist{
+	margin: 8px;
+	padding: 8px;
+}
+
+.activitylist li{
+	border-top: 2px dotted #AECEEF;
+	padding: 8px;
+	width: 750px;
+}
+
+.activitylist .usermini{
+	float: left;	
+	
+}
+
+.activitylist .activity{
+	float: left;
+	margin-left: 8px;
+	border-left: 2px dotted #AECEEF;
+	padding-left: 8px;
+	
+}
+
+.activitylist .activity a, .activitylist .activity span{
+	font-size: 12px;
+	margin-right: 12px;
+	
+}
+
+.activitylist .activity span{
+	font-family:"Comic Sans MS", cursive;
+}
+
+.like_btn_block{
+	margin: 8px;
+	text-align: center;
+}
+
+#like_btn{
+	background-color: #ECEEF5;
+    border: #CAD4E7 1px solid;
+	cursor: pointer;
+	display: inline-block;
+	padding: 2px;
+	margin-bottom: 10px;
+}
+
+#like_btn span{
+	background: url(../res/like.png) no-repeat;
+	padding-left: 26px;
+	color:#3B5998;
+	display: block;
+	font-size: 16px;
+}
+
+#likeusers {
+	padding: 8px;
+	border-bottom:  1px solid #C7C7C7;
+}
+
+#likeusers h3{
+	/*font-family:"Comic Sans MS", cursive;*/
+	font-size:22px;
+	padding: 0;
+	margin: 0;
+	display: inline;
+	margin-right: 100px;
+	color:#666666;
+}
+
+#likeusers h3 span{
+	background: #F6FBFF;
+	font-family:"Comic Sans MS", cursive;
+	font-size:24px;
+	color:#00F;
+	margin: 0;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 1px solid #AACCEE;
+	border-bottom: #F6FBFF 1px solid;
+	min-width: 200px;
+}
+
+
+#likeusers #likeuserlist{
+	background: #F6FBFF;
+	border:  1px solid #AACCEE;
+	padding: 8px;
+	height: 36px;
+}
+
+#likeusers .usermini{
+	float: left;
+}
+
+#player{
+	height: 30px;
+}
+
+#player *{
+	float: left;
+	margin: 2px 12px 2px 2px;
+}
+
+#like_btn_mini{
+	background-color: #ECEEF5;
+    border: #CAD4E7 1px solid;
+	cursor: pointer;
+	padding: 1px;
+}
+
+#like_btn_mini span{
+	background: url(../res/likemini.png) no-repeat;
+	padding-left: 12px;
+	color:#3B5998;
+	font-size: 12px;
+	margin: 2px 2px 2px 2px;
+}
+
+#songlist{
+	padding: 6px;
+	border: 2px dotted #AECEEF;
+}
+
+.sl_selected,.sl_selected a{
+	color: #FFF;
+}
+
+#songlist .listsonginfo{
+	display: inline-block;
+	width: 500px;
+	float: left;
+}
+
+#songlist ul li{
+	background:#FFF;
+	padding: 6px 6px 12px;
+	height: 16px;
+}
+
+#userdetail{
+	margin: 0 auto;
+	border-bottom: 1px solid #C7C7C7;
+	width: 200px;
+}
+
+#userdetail p{
+	background: #fff4ec;
+	padding: 8px;
+	min-height: 60px;
+	border: 1px solid #C7C7C7;
+}
+
+.a_btn{
+	padding: 3px 8px 3px 8px;
+	margin-right: 6px;
+}
+
+.a_btn_focus{
+	background: #F4FAFF;
+	color: #1F75CC;
+	border: 1px solid #AACCEE;
+}
+
+.a_btn_ff{
+	vertical-align: middle;
+	padding: 2px;
+	background: #006;
+	font-family:"Comic Sans MS", cursive;
+	text-align: center;
+	color: #FFF;
+	border: 1px dashed #CCC;
+}
+
+#usertool{
+	margin: 0 auto ;
+	width: 200px;
+	height: 66px;
+	text-align: center;
+	border-bottom: 1px solid #C7C7C7;
+}
+
+#usertool a{
+	display: inline-block;
+	width: 188px;
+	font-size:12px;
+	margin: 5px 0 5px 0;
+}
+
+#ffinfo{
+	margin: 0 auto;
+	width: 200px;
+}
+
+.votebar{
+	min-width: 20px;
+	background: #ACE1FE;
+	height: 20px;
+	display: inline-block;
+	float: left;
+	color: #FFF;
+	vertical-align: middle;
+}
+
+.checkit{
+	background-color: #348DD3;
+    border-color: #A3C8E9 #4379C0 #4379C0 #A3C8E9;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 2px 7px;
+}
+
+.quotecomment{
+	background:url(../res/quotel.gif) no-repeat;
+	margin: 5px;
+	padding: 5px;
+	padding-top:0px;
+	padding-left:15px;
+}
+
+.quotecomment span{
+	background:url(../res/quoter.gif) no-repeat scroll right bottom;
+	margin: 0px;
+	padding-right:15px;
+}
+
+
+#albumcover100{
+	display: inline-block;
+	float: left;
+	
+}
+.cdcover100{
+	background: url(../res/cd100.png) no-repeat;
+	display: block;
+    height: 100px;
+    padding: 7px 6px 14px 17px;
+    width: 100px;	
+}
+
+.cdimg100{
+	max-height: 100px;
+	max-width: 100px;
+	border: 0;
+}
+
+.albumlist span{
+	font-size: 12px;
+	display: inline-block;
+	color:#CCC;
+	width:120px;
+}
+
+.albumlist ul li{
+	margin: 8px 12px 8px 0;
+	width: 120px;
+	display: inline-block;
+	height: 200px;
+	vertical-align: top;
+}
+
+.gray{
+	color: #999999;
+}
+
+
+.artistavatar100{
+	padding: 3px;
+	height: 100px;
+	width: 100px;
+	margin-right: 20px;
+	background: none repeat scroll 0 0 #F9F9F9;
+    border-color: #F6F6F6 #F3F3F3 #F3F3F3 #F6F6F6;
+    border-style: solid;
+    border-width: 1px 3px 3px 1px;
+	float: left;
+}
+
+
+.artistavatar100 a{
+	height: 100px;
+	width: 100px;
+	border: none;
+	display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.artistavatar100 a img{
+	max-height: 100px;
+	max-width: 100px;
+	border: none;
+}
+
+#footer{
+	border-top: 1px dashed #DDDDDD;
+	text-align: right;
+	color: #AAAAAA;
+	margin: 0 auto;
+	margin-top: 20px; 
+	padding: 10px;
+	width: 1080px;
+}
+#footer span{
+	
+}
+
+
+.albumcomment{
+	display: inline-block;
+	float: left;
+}

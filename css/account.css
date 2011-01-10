@@ -1,0 +1,47 @@
+/* CSS Document */
+#userprofile{
+	margin: 10px;
+	
+}
+
+#accoutinfo{
+	margin: 8px;
+	padding: 8px;
+
+}
+
+#userprofile textarea{
+	width: 700px;
+	height: 200px;
+	
+}
+
+#fflist,#msglist{
+	
+}
+
+#fflist li,#msglist li{
+	padding: 6px;
+	border-bottom: 2px dotted #AECEEF;
+}
+
+
+#fflist .a_btn_ff,#msglist .a_btn_ff{
+	height: 20px;
+	vertical-align: middle;
+	width: 88px;
+	padding: 2px;
+	background: #006;
+	font-family:"Comic Sans MS", cursive;
+	font-size:16px;
+	text-align: center;
+	color: #FFF;
+	float: right;
+	border: 1px dashed #CCC;
+	margin: 10px 0px 10px 20px;
+}
+
+#accoutavatar{
+	margin: 8px;
+	padding: 8px;
+}

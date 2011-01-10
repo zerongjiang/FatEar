@@ -1,0 +1,75 @@
+/* CSS Document */
+
+#albumintro{
+	padding: 8px;
+	height: 240px;
+	border-bottom: 1px solid #CCC;
+	
+}
+
+
+.albumcomment{
+	display: inline-block;
+	float: left;
+}
+
+.albumactivitylist li{
+}
+
+#albumintro .albumcover{
+	float: left;
+	
+}
+#albumdetail{
+	float: left;
+}
+
+
+
+#albumdetail h6{
+	margin: 6px;
+	margin-left: 0px;
+	color: #999;
+}
+
+
+#albumdetail p{
+	background: #eee;
+	margin: 0px;
+	padding: 8px;
+	min-height: 80px;
+	width: 470px;
+	border: 1px solid #C7C7C7;
+	height: 50px;
+	overflow: hidden;
+}
+
+#albumsonglist{
+	border-bottom: 1px solid #CCC;
+	padding: 8px;
+}
+
+.albumlist .albumcover100{
+	
+	
+}
+
+.albumlist ul li{
+	margin: 8px 12px 8px 0;
+	width: 120px;
+	display: inline-block;
+	height: 200px;
+	vertical-align: top;
+}
+
+
+.albumlist .votebar{
+	min-width: 20px;
+	background: #ACE1FE;
+	height: 16px;
+	display: inline-block;
+	float: left;
+	color: #FFF;
+	vertical-align: middle;
+	padding-left: 3px;
+}
